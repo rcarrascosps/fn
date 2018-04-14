@@ -7,3 +7,5 @@ docker run --rm --name functions -it -v /var/run/docker.sock:/var/run/docker.soc
 ```
 
 Then everything should work as normal.
+
+If u have any issues with the ${pwd}/data use an absolute path, for example: c:/serverless/fn/data , that works as well.
